@@ -1,0 +1,247 @@
+.connect-section {
+  background-color: #4b3cef;
+  color: white;
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.connect-section h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.connect-section .subtext {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 50px;
+}
+
+.connect-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Left Card */
+.connect-card {
+  background-color: white;
+  color: #1a1a1a;
+  flex: 1 1 350px;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.connect-card h3 {
+  color: #4b3cef;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.connect-card .description {
+  margin-bottom: 80px;
+  font-size: 16px;
+  color: #333;
+}
+
+.connect-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 78px;
+}
+
+.icon-box {
+  background-color: #4b3cef;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box img {
+  width: 24px;
+  height: 24px;
+}
+
+.connect-option strong {
+  color: #4b3cef;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.connect-option p {
+  font-size: 14px;
+  margin: 0 0 4px;
+  color: #555;
+}
+
+.connect-option a {
+  color: #4b3cef;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.connect-option a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  background-color: white;
+  color: #4b3cef ;
+  flex: 1 1 350px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form h3 {
+  color: #4b3cef;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 3px;
+  color: #4b3cef;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  padding: 10px 10px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+}
+
+/* Reuse CTA button */
+.cta-button {
+  display: inline-block;
+  background-color: #4b3cef;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+ font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+}
+/* 
+  background-color: white;
+  color: #4b3cef;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.cta-button:hover {
+  background-color: #372cc5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .connect-section {
+    padding: 60px 20px;
+  }
+
+  .connect-section h2 {
+    font-size: 26px;
+  }
+
+  .connect-section .subtext {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  .connect-container {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .connect-card,
+  .contact-form {
+    width: 92%;
+    padding: 24px 16px;
+    border-radius: 16px;
+  }
+
+  .connect-card h3,
+  .contact-form h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .connect-card .description {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .connect-option {
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+
+  .connect-option strong {
+    font-size: 14px;
+  }
+
+  .connect-option p,
+  .connect-option a {
+    font-size: 13px;
+  }
+
+  .icon-box img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contact-form label {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+
+  .contact-form textarea {
+    min-height: 100px;
+  }
+
+  .cta-button {
+    padding: 12px 20px;
+    font-size: 13px;
+    border-radius: 24px;
+  }
+}
+

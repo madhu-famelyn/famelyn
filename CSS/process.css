@@ -1,0 +1,100 @@
+/* process.css */
+
+.process {
+  background-color: #4b3cef;
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.process h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.process p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.steps .hover{
+    transform: translateY(-5px);
+}
+.step {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  padding: 30px 20px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.step h3 {
+  font-size: 22px;
+  margin: 10px 0 8px;
+  font-weight: bold;
+}
+
+.step .number {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.step p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* CTA Section */
+.cta-process {
+  text-align: center;
+}
+
+.cta-process h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: white;
+  color: #4b3cef;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .process h2 {
+    font-size: 32px;
+  }
+
+  .cta-process h3 {
+    font-size: 24px;
+  }
+}

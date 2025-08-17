@@ -1,0 +1,149 @@
+.testimonials-section {
+  background-color: #4b3cef;
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.testimonials-section .subtext {
+  font-size: 18px;
+  margin-bottom: 50px;
+  max-width: 600px;
+  margin: 0 auto 50px;
+}
+
+.testimonial-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  background-color: white;
+  color: #4b3cef;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-details strong {
+  font-size: 16px;
+  display: block;
+}
+
+.user-details span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.testimonial-content .quote-icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.testimonial-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.stars {
+  color: white;
+  font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding: 50px 20px;
+  }
+
+  .testimonials-section h2 {
+    font-size: 28px;
+  }
+
+  .testimonials-section .subtext {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-card {
+    padding: 24px;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .user-details strong {
+    font-size: 15px;
+  }
+
+  .user-details span {
+    font-size: 13px;
+  }
+
+  .testimonial-content .quote-icon {
+    font-size: 24px;
+  }
+
+  .testimonial-content p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .stars {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-section h2 {
+    font-size: 24px;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+
+  .testimonial-content p {
+    font-size: 14px;
+  }
+
+  .avatar {
+    width: 36px;
+    height: 36px;
+    font-size: 15px;
+  }
+
+  .stars {
+    font-size: 15px;
+  }
+}

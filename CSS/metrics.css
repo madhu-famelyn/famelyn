@@ -1,0 +1,192 @@
+/* metrics.css */
+
+.metrics {
+  background-color: #4b3cef;
+  color: white;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.metrics h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.metrics p.subheading {
+  font-size: 18px;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.metric-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.metric-card {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  padding: 30px 25px;
+  max-width: 320px;
+  flex: 1;
+  text-align: left;
+  position: relative;
+}
+
+.metric-card img {
+  width: 36px;
+  margin-bottom: 20px;
+}
+.just{
+  margin-bottom: 2vh;
+}
+
+.metric-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.metric-card p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.metric-card ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.metric-card ul li {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.metric-card ul li::before {
+  content: '✓';
+  color: white;
+  position: absolute;
+  left: 0;
+}
+@media (max-width: 768px) {
+  .metrics {
+    padding: 60px 20px;
+  }
+
+  .metrics h2 {
+    font-size: 28px;
+  }
+
+  .metrics p.subheading {
+    font-size: 16px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+  }
+
+  .metric-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .metric-card {
+    max-width: 100%;
+    width: 100%;
+    padding: 24px 20px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .metric-card h3 {
+    font-size: 18px;
+  }
+
+  .metric-card p {
+    font-size: 15px;
+  }
+
+  .metric-card ul li {
+    font-size: 14px;
+    padding-left: 18px;
+  }
+
+  .metric-card img {
+    width: 28px;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 480px) {     
+  .metrics {
+    padding: 40px 15px;
+  }
+
+  .metrics h2 {
+    font-size: 24px;
+  }
+
+  .metrics p.subheading {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 0 5px;
+  }
+
+  .metric-card {
+    padding: 20px 15px;
+  }
+
+  .metric-card h3 {
+    font-size: 16px;
+  }
+
+  .metric-card p {
+    font-size: 14px;
+  }
+
+  .metric-card ul li {
+    font-size: 13px;
+    padding-left: 15px;
+  }
+
+  .metric-card img {
+    width: 24px;
+    margin-bottom: 12px;
+  }
+}           
+
+@media (max-width: 768px) {
+  .metrics-box {
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+    box-sizing: border-box;
+  }
+
+  .metrics-box h3 {
+    font-size: 10px;
+  }
+
+  .metric span,
+  .percent {
+    font-size: 13px;
+  }
+
+  .bar {
+    height: 8px;
+    margin-bottom: 2vh;
+  }
+}
+.metric-box {
+  background-color: #4b3cef;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 20px;
+} 
